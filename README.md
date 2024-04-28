@@ -5,4 +5,4 @@ Github爬取Api工具\github_crawl_api.py为爬虫文件，原理是通过github
 ## API字典说明
 目录下的API字典.txt是经过筛选文件夹下的github_api.txt后得到的，涉及比较敏感的接口，如/api/user、/api/sys、/api/admin、/api/upload等
 ## 使用说明
-建议配合Burp Suite攻击器使用，加上常见的参数配合GET方法、POST方法进行fuzz
+建议配合Burp Suite攻击器使用，加上常见的参数，配合GET方法、POST方法以及OPTIONS方法进行fuzz
